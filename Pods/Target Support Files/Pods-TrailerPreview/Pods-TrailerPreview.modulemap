@@ -1,0 +1,6 @@
+framework module Pods_TrailerPreview {
+  umbrella header "Pods-TrailerPreview-umbrella.h"
+
+  export *
+  module * { export * }
+}

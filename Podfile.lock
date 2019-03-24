@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.8.0)
+  - ReachabilitySwift (4.3.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - YoutubeDirectLinkExtractor (0.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ReachabilitySwift
+  - SVProgressHUD
+  - SwiftyJSON
+  - YoutubeDirectLinkExtractor
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ReachabilitySwift
+    - SVProgressHUD
+    - SwiftyJSON
+    - YoutubeDirectLinkExtractor
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  YoutubeDirectLinkExtractor: 068b6a09d64551cb7cec966179d7f5f5824cd2db
+
+PODFILE CHECKSUM: b35e59a3a997d75b59eea1367a8bce85a3b3e533
+
+COCOAPODS: 1.5.3
