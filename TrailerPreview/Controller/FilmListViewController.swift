@@ -52,13 +52,8 @@ class FilmListViewController: UIViewController {
             keyboardHeight -= bottomInset
         }
         
-        if UIDevice.current.orientation.isLandscape {
-            
-            self.searchHeight.constant = keyboardHeight
-        }else{
-            self.searchHeight.constant = keyboardHeight
-        }
-        
+        self.searchHeight.constant = keyboardHeight
+    
         self.view.layoutIfNeeded()
     }
     
