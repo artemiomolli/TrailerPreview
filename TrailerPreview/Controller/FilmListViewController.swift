@@ -45,11 +45,18 @@ class FilmListViewController: UIViewController {
         let userInfo = notification.userInfo!
         let keyboardSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         
+        var keyboardHeight = keyboardSize.height
+        
+        if #available(iOS 11.0, *) {
+            let bottomInset = view.safeAreaInsets.bottom
+            keyboardHeight -= bottomInset
+        }
+        
         if UIDevice.current.orientation.isLandscape {
             
-            self.searchHeight.constant = keyboardSize.height
+            self.searchHeight.constant = keyboardHeight
         }else{
-            self.searchHeight.constant = keyboardSize.height
+            self.searchHeight.constant = keyboardHeight
         }
         
         self.view.layoutIfNeeded()
